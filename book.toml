@@ -3,7 +3,7 @@ authors = ["solareenlo"]
 language = "ja"
 multilingual = false
 src = "src"
-title = "RFC2811 チャネル管理"
+title = "RFC 2811 チャネル管理"
 
 [output.html]
 theme = "src/theme"
