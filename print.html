@@ -186,7 +186,7 @@ Internet Relay Chat: チャネル管理
 <p>チャネルは、そのチャネルに宛てられたメッセージをすべて受信する、1人または複数のユーザからなる名前付きグループです。チャネルは、その名前、プロパティ、現在のメンバによって特徴付けられます。</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="21-名前空間"><a class="header" href="#21-名前空間">2.1 名前空間</a></h1>
 <p>チャネル名は、最大50文字の文字列（<code>&amp;</code>、<code>#</code>、<code>+</code>、<code>!</code> で始まる文字）です。チャネル名は大文字と小文字を区別しません。</p>
-<p>ただし、最初の文字が <code>&amp;</code>、<code>#</code>、<code>+</code>、<code>!</code> のいずれかであること（以下、&quot;チャネル接頭辞&quot; と呼びます）。チャネル名の唯一の制約は、スペース（<code> </code>）、コントロール G（^G または ASCII 7）、カンマ（<code>,</code>はプロトコルではリストアイテムのセパレータとして使用されます）を含んではならないことです。また、コロン（<code>:</code>）はチャネルマスクのデリミタとして使用されます。チャネル名の正確な文法は [&quot;IRC サーバプロトコル&quot; <a href="https://solareenlo.com/rfc2813">IRC-SERVER</a>] で定義されています。</p>
+<p>ただし、最初の文字が <code>&amp;</code>、<code>#</code>、<code>+</code>、<code>!</code> のいずれかであること（以下、&quot;チャネル接頭辞&quot; と呼びます）。チャネル名の唯一の制約は、スペース（<code> </code>）、コントロール G（^G または ASCII 7）、カンマ（<code>,</code>はプロトコルではリストアイテムのセパレータとして使用されます）を含んではならないことです。また、コロン（<code>:</code>）はチャネルマスクのデリミタとして使用されます。チャネル名の正確な文法は <a href="https://solareenlo.com/rfc2813">&quot;IRC サーバプロトコル&quot; [IRC-SERVER]</a> で定義されています。</p>
 <p>異なる接頭辞を使用することで、チャネル名に対して4つの異なる名前空間が効果的に作成されます。これは、一般的な名前空間に関するプロトコルの制限のために重要です。この制限の詳細については、<a href="channel-characteristics/../current-problems/labels.html">6.1 ラベル</a> を参照してください。</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="22-チャネルスコープ"><a class="header" href="#22-チャネルスコープ">2.2 チャネルスコープ</a></h1>
 <p>チャネルの実体は、IRC ネットワーク上の1つまたは複数のサーバによって知られています。ユーザは、そのユーザが直接接続しているサーバが知っているチャネルのみメンバーになることができます。特定のチャネルの存在を知っているサーバのリストは、チャネルに宛てられたメッセージがすべてのチャネルメンバーに送信されるために、IRC ネットワークの連続した部分でなければなりません。</p>
