@@ -183,7 +183,7 @@ Internet Relay Chat: チャネル管理
 <p>ここで定義された概念の多くは、<a href="https://solareenlo.com/rfc2810">IRC アーキテクチャ [IRC-ARCH]</a> を念頭において設計され、ほとんどがこの文脈で意味をなすものです。しかし、他の多くのものは、会議システムのためのフォーラムを提供するために、他のアーキテクチャに適用することができます。</p>
 <p>最後に、IRC ユーザは、以下の章、特に <a href="introduction/../channel-characteristics/index.html">2. チャンネル特性</a> と <a href="introduction/../channel-modes/index.html">4. チャンネルモード</a> のいくつかに興味を持つかもしれないことに留意してください。</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="2-チャネルの特性"><a class="header" href="#2-チャネルの特性">2. チャネルの特性</a></h1>
-<p>チャネルは、そのチャネルに宛てられたメッセージをすべて受信する、1人または複数のユーザからなる名前付きグループです。チャネルは、その名前、プロパティ、現在のメンバーによって特徴付けられます。</p>
+<p>チャネルは、そのチャネルに宛てられたメッセージをすべて受信する、1人または複数のユーザからなる名前付きグループです。チャネルは、その名前、プロパティ、現在のメンバによって特徴付けられます。</p>
 <div style="break-before: page; page-break-before: always;"></div><h1 id="21-名前空間"><a class="header" href="#21-名前空間">2.1 名前空間</a></h1>
 <p>チャネル名は、最大50文字の文字列（<code>&amp;</code>、<code>#</code>、<code>+</code>、<code>!</code> で始まる文字）です。チャネル名は大文字と小文字を区別しません。</p>
 <p>ただし、最初の文字が <code>&amp;</code>、<code>#</code>、<code>+</code>、<code>!</code> のいずれかであること（以下、&quot;チャネル接頭辞&quot; と呼びます）。チャネル名の唯一の制約は、スペース（<code> </code>）、コントロール G（^G または ASCII 7）、カンマ（<code>,</code>はプロトコルではリストアイテムのセパレータとして使用されます）を含んではならないことです。また、コロン（<code>:</code>）はチャネルマスクのデリミタとして使用されます。チャネル名の正確な文法は [&quot;IRC サーバプロトコル&quot; <a href="https://solareenlo.com/rfc2813">IRC-SERVER</a>] で定義されています。</p>
